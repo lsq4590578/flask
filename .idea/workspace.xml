@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="234cf317-a449-417e-a223-cf39a6b76f40" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/douban.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fontdot.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/image/clock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/image/email.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/image/graps.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/image/halfsb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/image/light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/image/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/tools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/douban.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/macros.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +131,7 @@
       <workItem from="1730111453805" duration="4202000" />
       <workItem from="1730160258622" duration="3466000" />
       <workItem from="1730194422814" duration="1382000" />
-      <workItem from="1730291220027" duration="5682000" />
+      <workItem from="1730291220027" duration="7838000" />
     </task>
     <servers />
   </component>
@@ -179,26 +161,26 @@
     </state>
     <state x="420" y="135" key="FileChooserDialogImpl/0.0.1280.760/1920.0.2560.1400@0.0.1280.760" timestamp="1729901505395" />
     <state x="420" y="135" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1729092965413" />
-    <state width="1237" height="190" key="GridCell.Tab.0.bottom" timestamp="1730294990063">
+    <state width="1237" height="358" key="GridCell.Tab.0.bottom" timestamp="1730297096401">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state width="1237" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760/1920.0.2560.1400@0.0.1280.760" timestamp="1730196910590" />
-    <state width="1237" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1730294990063" />
-    <state width="1237" height="190" key="GridCell.Tab.0.center" timestamp="1730294990063">
+    <state width="1237" height="358" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1730297096401" />
+    <state width="1237" height="358" key="GridCell.Tab.0.center" timestamp="1730297096401">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state width="1237" height="190" key="GridCell.Tab.0.center/0.0.1280.760/1920.0.2560.1400@0.0.1280.760" timestamp="1730196910589" />
-    <state width="1237" height="190" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1730294990063" />
-    <state width="1237" height="190" key="GridCell.Tab.0.left" timestamp="1730294990063">
+    <state width="1237" height="358" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1730297096401" />
+    <state width="1237" height="358" key="GridCell.Tab.0.left" timestamp="1730297096401">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state width="1237" height="190" key="GridCell.Tab.0.left/0.0.1280.760/1920.0.2560.1400@0.0.1280.760" timestamp="1730196910589" />
-    <state width="1237" height="190" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1730294990063" />
-    <state width="1237" height="190" key="GridCell.Tab.0.right" timestamp="1730294990063">
+    <state width="1237" height="358" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1730297096401" />
+    <state width="1237" height="358" key="GridCell.Tab.0.right" timestamp="1730297096401">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state width="1237" height="190" key="GridCell.Tab.0.right/0.0.1280.760/1920.0.2560.1400@0.0.1280.760" timestamp="1730196910589" />
-    <state width="1237" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1730294990063" />
+    <state width="1237" height="358" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1730297096401" />
     <state width="1202" height="217" key="GridCell.Tab.1.bottom" timestamp="1729165173864">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
