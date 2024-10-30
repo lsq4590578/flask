@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>豆瓣电影</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+        .container{
+            width: 400px;
+            height: 600px;
+            background: pink;
+        }
+        .search-group{
+            padding: 14px 8px;
+            background: #41be57;
+        }
+        .search-group input{
+            display: block;
+            height: 30px;
+            width: 100%;
+            background: #ffffff;
+            border-radius: 5px;
+            outline: none;
+        }
+        .item-list-group .item-list-top{
+            overflow: hidden;
+            padding: 10px;
+        }
+        .item-list-top .module-title{
+            float: left;
+        }
+        .item-list-top .more-btn{
+            float: right;
+        }
+        .list-group{
+            overflow: hidden;
+            padding: 0 10px;
+        }
+        .list-group .item-group{
+            float: left;
+            margin-right:10px ;
+        }
+        .item-group .thumbnail{
+            display: block;
+            width: 100px;
+            height: 120px;
+        }
+        .item-group .item-title{
+            font-size: 12px;
+            text-align: center;
+        }
+        .item-group .item-rating{
+            font-size: 12px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+{% macro itemGroup(thumbnail,title,rating)%}
+ <div class="item-group">
+                    <img src="{{thumbnail}}" alt="" class="thumbnail">
+                    <p class="item-title">{{title}}</p>
+                    <p class="item-rating">
+                        {% set lights = ((rating|int)/2)|int %}
+                        {% set halfs = (rating|int)%2 %}
+                        {% set grays = 5-lights-halfs %}
+                        {% for light in range(0,lights) %}
+                            <img src="{{ url_for("static",filename="image/light.svg")}}" alt="">
+                        {% endfor %}
+                    {% for half in range(0,halfs) %}
+                            <img src="{{ url_for("static",filename="image/halfsb.svg")}}" alt="">
+                        {% endfor %}
+                        {% for gray in range(0,grays) %}
+                            <img src="{{ url_for("static",filename="image/graps.svg")}}" alt="">
+                        {% endfor %}
+                        {{rating}}
+                    </p>
+               </div>
+{% endmacro%}
+    <div class="container">
+        <div class="search-group">
+            <input type="text" placeholder="搜索....">
+        </div>
+        <div class="item-list-group">
+            <div class="item-list-top">
+                <span class="module-title"></span>
+                <a href="#" class="more-btn"></a>
+            </div>
+            <div class="list-group">
+                {{itemGroup("https://emoji.bj.bcebos.com/yige-aigc/index_aigc/final/toolspics/0.png","星球大战","7.5")}}
+                {{itemGroup("https://emoji.bj.bcebos.com/yige-aigc/index_aigc/final/toolspics/0.png","星球大战","7.5")}}
+                {{itemGroup("https://emoji.bj.bcebos.com/yige-aigc/index_aigc/final/toolspics/0.png","星球大战","7.5")}}
+               </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

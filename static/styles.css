@@ -1,0 +1,245 @@
+.container{
+    width: 750px;
+    height: 1280px;
+    background: black;
+    color: #18181A;
+    padding-top:50px;
+    overflow-y:auto;
+}
+.tab-container {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 20px;
+        margin-left: 20px;
+      }
+
+.tab-container button{
+    border: none;
+    background: #000000;
+    color: #ffffff;
+    font-size: 30px;
+}
+.container .tab {
+        cursor: pointer;
+        border: none;
+      }
+
+.tab.active {
+        background-color: #18181A;
+        color: white;
+        font-size: 40px;
+      }
+.tablog img{
+    padding-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.search{
+        display: flex;
+        /*justify-content: center;*/
+        color: white;
+        gap: 30px;
+        margin-left: 10px;
+        margin-top: 50px;
+}
+.search .search-item{
+    width: 450px;
+    height: 50px;
+    border: none;
+    margin-left: 20px;
+}
+.search .search-item img{
+    width: 30px;
+    height: 30px;
+}
+
+.search .search-item input{
+    border-radius: 50px;
+    height: 50px;
+    width: 450px;
+    background: #2f2f2e;
+    border: #4d4d4d 1px solid;
+
+
+}
+
+.search .search-item input::-ms-input-placeholder{
+color: #565658;
+}
+.search .search-item input:focus{
+    float: left;
+    color: white;
+    border: #ba7237 1px solid;
+}
+
+.search .search-logo img{
+    width: 50px;
+    height: 50px;
+}
+.main-container{
+    display: flex;
+    /*background: red;*/
+    margin: 20px 20px 20px 20px;
+    flex-direction: column;
+}
+.main-want{
+    padding:0 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    /*border: #ffffff 1px solid;*/
+}
+.main-want-top{
+    display: flex;
+    justify-content: space-between;
+}
+.main-want-top .main-want-item{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    color: #ebedeb;
+}
+.main-want-top .want{
+    font-size: 24px;
+    color: #ebedeb;
+    width: 150px;
+}
+
+.main-want-top .want .more{
+    font-size: 24px;
+    color: #ebedeb;
+    width: 150px;
+}
+
+.main-want-top .want a{
+    font-size: 24px;
+    color: #ebedeb;
+    opacity: 0.8;
+}
+
+.main-want-top .discount{
+    width: 100%;
+    height: 35px;
+    background: #2e2e2e;
+    color: #999184;
+    border-radius: 20px;
+    align-items:center;
+}
+.main-want-body{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 20px;
+    color: #ebedeb;
+    flex-wrap: wrap;
+}
+
+.main-want-body img{
+    width: 200px;
+    height: 180px;
+    background: #41be57;
+     border-radius: 20px;
+}
+.main-want-body .hotimg{
+    /*display: inline-flex;*/
+    width: 310px;
+    height: 180px;
+    background: #41be57;
+    border-radius: 30px;
+}
+
+
+.main-want-body-item .title{
+    font-size: 24px;
+    color: #D1D3D2;
+
+}
+
+.main-want-body-item .subtitle{
+    color: #737375;
+    font-size: 24px;
+    width: 310px;
+
+}
+
+.main-hot{
+    border: blue 1px solid;
+}
+*
+{
+    margin:0;
+    padding:0;
+}
+/*设置outer可见框的样式*/
+#outer
+{
+    width:700px;
+    height: 250px;
+    margin: 10px auto;
+    /*background-color: yellowgreen;*/
+    padding:10px 0;
+    position:relative;/*让ul能相对于可见框来偏移*/
+    overflow: hidden;/*让不可见框真正的不可见*/
+}
+/*设置不可见框的样式 将图片排成一行*/
+#imgList
+{
+    list-style: none; /*去除li自带的小圆点*/
+    /*width:2600px;*//*共有5张照片和margin10px*/
+    position:absolute;/*开启绝对定位，并为父元素开启相对定位*/
+    /*left:-520px;每向左移动520px,可见框中就会显示下一张图片*/
+}
+
+#imgList li
+{
+    float:left;/*设置float后图片并没有成一行排列，原因是ul的大小被outer限制住了。*/
+    margin:0 10px;
+}
+
+#navDiv
+{
+    position: absolute;/*设置导航栏所在的位置*/
+    bottom:15px;
+    /*left: 197px;*//*通过js来动态设置居中*/
+}
+
+#navDiv a
+{
+    float:left;/*a为内联元素，应设置浮动*/
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    margin: 0 5px;
+    opacity: 0.5;/*设置半透明*/
+    border-radius: 5px;
+}
+
+#navDiv a:hover
+{
+    background-color: black;/*设置鼠标移入效果*/
+}
+
+/*.container .tvtitle{*/
+/*    padding-top: 80px;*/
+/*    background: #18181a;*/
+/*}*/
+
+/*.container ul{*/
+/*    background: #18181a;*/
+/*    display: flex;*/
+/*    list-style-type: none;*/
+/*    padding-left: 50px;*/
+/*    margin: 0;*/
+/*    align-items: center;*/
+/*}*/
+/*.container ul li{*/
+/*  margin-right: 50px;*/
+
+/*}*/
+/*.container ul li.active{*/
+/*    font-size: 40px;*/
+/*}*/
+
+
+

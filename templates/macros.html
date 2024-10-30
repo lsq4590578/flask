@@ -1,0 +1,26 @@
+{% macro titleList(list) %}
+    {% for title in list%}
+<button class="tab" data-tab="直播">{{title}}</button>
+    {% endfor %}
+{% endmacro  %}
+
+{% macro bannerList(image) %}
+			<li><img src="{{image}}" style="width:720px; height:333px"></li>
+{% endmacro  %}
+
+{% macro wantList(image,title,subtitle) %}
+            <div class="main-want-body-item">
+                <div class="main-want-item"><div class="wantimg"><img src="{{image}}" alt=""></div></div>
+                <div class="main-want-item"><span class="title">{{title}}</span></div>
+                <div class="main-want-item" ><span class="subtitle">{{subtitle}}</span></div>
+            </div>
+{% endmacro  %}
+
+
+{% macro hotList(image,title,subtitle) %}
+                   <div class="main-want-body-item">
+                      <div class="main-want-item"><img src="{{image}}" alt="" style="width: 300px;height: 180px"></div>
+                    <div class="main-want-item"><span class="title">{{title}}</span></div>
+                    <div class="main-want-item" ><span class="subtitle">{{subtitle}}</span></div>
+                 </div>
+{% endmacro  %}

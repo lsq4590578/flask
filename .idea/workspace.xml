@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="234cf317-a449-417e-a223-cf39a6b76f40" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/douban.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fontdot.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/image/clock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/image/email.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/image/graps.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/image/halfsb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/image/light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/image/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/tools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/douban.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/macros.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2nWFpBs3WwrEViCI6KqGM85Dieq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../strentools" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="douban" sdk-home="$PROJECT_DIR$/../flask/venv/Scripts/python.exe" working-directory="$PROJECT_DIR$/..">
+        <option name="mySdkHome" value="$PROJECT_DIR$/../flask/venv/Scripts/python.exe" />
+        <option name="myModuleName" value="douban" />
+        <option name="myWorkingDirectory" value="$PROJECT_DIR$/.." />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\douban\static\image" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\douban\static" />
+      <recent name="D:\workspace\douban" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/douban/templates/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="douban" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\tools\python\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="应用程序级" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="234cf317-a449-417e-a223-cf39a6b76f40" name="更改" comment="" />
+      <created>1729081105345</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729081105345</updated>
+      <workItem from="1729092652035" duration="732000" />
+      <workItem from="1729093392828" duration="299000" />
+      <workItem from="1729093700861" duration="695000" />
+      <workItem from="1729123448166" duration="214000" />
+      <workItem from="1729123888453" duration="7265000" />
+      <workItem from="1729398094016" duration="16231000" />
+      <workItem from="1729470470688" duration="1913000" />
+      <workItem from="1729665946758" duration="48000" />
+      <workItem from="1729781024181" duration="1075000" />
+      <workItem from="1729901357966" duration="149000" />
+      <workItem from="1729985375407" duration="11965000" />
+      <workItem from="1730111453805" duration="4202000" />
+      <workItem from="1730160258622" duration="3466000" />
+      <workItem from="1730194422814" duration="1382000" />
+      <workItem from="1730291220027" duration="5682000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="95" y="36" width="1089" height="711" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1729093565474">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="95" y="36" width="1089" height="711" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760@0.0.1280.760" timestamp="1729093565474" />
+    <state x="395" y="184" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1730000407327">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="395" y="184" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.760@0.0.1280.760" timestamp="1730000407327" />
+    <state x="357" y="12" key="#main" timestamp="1729470480557">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="357" y="17" key="#main/0.0.1280.760/1920.0.2560.1400@0.0.1280.760" timestamp="1729123906619" />
+    <state x="357" y="12" key="#main/0.0.1280.760@0.0.1280.760" timestamp="1729470480557" />
+    <state x="-59" y="249" width="1095" height="575" key="DiffContextDialog" timestamp="1730296621702">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="-59" y="249" width="1095" height="575" key="DiffContextDialog/0.0.1280.760@0.0.1280.760" timestamp="1730296621702" />
+    <state x="420" y="135" key="FileChooserDialogImpl" timestamp="1729901505395">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="420" y="135" key="FileChooserDialogImpl/0.0.1280.760/1920.0.2560.1400@0.0.1280.760" timestamp="1729901505395" />
+    <state x="420" y="135" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1729092965413" />
+    <state width="1237" height="190" key="GridCell.Tab.0.bottom" timestamp="1730294990063">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1237" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760/1920.0.2560.1400@0.0.1280.760" timestamp="1730196910590" />
+    <state width="1237" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1730294990063" />
+    <state width="1237" height="190" key="GridCell.Tab.0.center" timestamp="1730294990063">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1237" height="190" key="GridCell.Tab.0.center/0.0.1280.760/1920.0.2560.1400@0.0.1280.760" timestamp="1730196910589" />
+    <state width="1237" height="190" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1730294990063" />
+    <state width="1237" height="190" key="GridCell.Tab.0.left" timestamp="1730294990063">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1237" height="190" key="GridCell.Tab.0.left/0.0.1280.760/1920.0.2560.1400@0.0.1280.760" timestamp="1730196910589" />
+    <state width="1237" height="190" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1730294990063" />
+    <state width="1237" height="190" key="GridCell.Tab.0.right" timestamp="1730294990063">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1237" height="190" key="GridCell.Tab.0.right/0.0.1280.760/1920.0.2560.1400@0.0.1280.760" timestamp="1730196910589" />
+    <state width="1237" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1730294990063" />
+    <state width="1202" height="217" key="GridCell.Tab.1.bottom" timestamp="1729165173864">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1202" height="217" key="GridCell.Tab.1.bottom/0.0.1280.760/1920.0.2560.1400@0.0.1280.760" timestamp="1729165173864" />
+    <state width="1202" height="217" key="GridCell.Tab.1.center" timestamp="1729165173864">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1202" height="217" key="GridCell.Tab.1.center/0.0.1280.760/1920.0.2560.1400@0.0.1280.760" timestamp="1729165173864" />
+    <state width="1202" height="217" key="GridCell.Tab.1.left" timestamp="1729165173864">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1202" height="217" key="GridCell.Tab.1.left/0.0.1280.760/1920.0.2560.1400@0.0.1280.760" timestamp="1729165173864" />
+    <state width="1202" height="217" key="GridCell.Tab.1.right" timestamp="1729165173864">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1202" height="217" key="GridCell.Tab.1.right/0.0.1280.760/1920.0.2560.1400@0.0.1280.760" timestamp="1729165173864" />
+    <state x="142" y="23" key="SettingsEditor" timestamp="1729128797663">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="142" y="23" key="SettingsEditor/0.0.1280.760/1920.0.2560.1400@0.0.1280.760" timestamp="1729128797663" />
+    <state x="142" y="23" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1729093678640" />
+    <state x="324" y="205" key="com.intellij.ide.util.TipDialog" timestamp="1730291235194">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="324" y="205" key="com.intellij.ide.util.TipDialog/0.0.1280.760/1920.0.2560.1400@0.0.1280.760" timestamp="1730194423074" />
+    <state x="324" y="205" key="com.intellij.ide.util.TipDialog/0.0.1280.760@0.0.1280.760" timestamp="1730291235194" />
+    <state x="303" y="81" width="672" height="678" key="search.everywhere.popup" timestamp="1729986533892">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="303" y="81" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1729986533892" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/douban$main.coverage" NAME="main Coverage Results" MODIFIED="1730294990063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

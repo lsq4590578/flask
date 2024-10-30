@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="../static/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>豆瓣电影</title>
+</head>
+<body>
+
+	<!-- #outer为不可见框部分 将所有的图片连成一排 -->
+{% from 'macros.html' import titleList %}
+{% from 'macros.html' import bannerList %}
+{% from 'macros.html' import wantList %}
+{% from 'macros.html' import hotList %}
+
+<div class="container">
+    <div class="tab-container">
+        {{titleList(["直播","精选","电视剧","电影","综艺"])}}
+        <div class="tablog"><img src="../static/fontdot.svg"></div>
+    </div>
+    <div class="search">
+            <div class="search-item"><input placeholder="白色：浮生"></div>
+        <div class="search-logo"><img src="../static/image/clock.svg"></div>
+        <div class="search-logo"><img src="../static/image/email.svg"></div>
+    </div>
+    <div class="banner">
+       	<div id = "outer">
+		<ul id = "imgList">
+        {%for item in image_list%}
+            {{bannerList(item)}}
+        {% endfor %}
+		</ul>
+		<!-- 创建导航按钮 -->
+		<div id="navDiv">
+			<a href="javascript:;"></a>
+			<a href="javascript:;"></a>
+			<a href="javascript:;   "></a>
+			<a href="javascript:;"></a>
+			<a href="javascript:;"></a>
+		</div>
+	</div>
+    </div>
+
+    <div class="main-container">
+        <div class="main-want">
+            <div class="main-want-top">
+                    <div class="main-want-item">
+                        <div class="want">猜你想追</div>
+                        <div class="discount">《春花焰》开播卡特惠</div>
+                    </div>
+                    <div class="main-want-item">
+                        <div class="want"><span class="more"><a href="#">更多影片>></a></span></div>
+                    </div>
+            </div>
+             <div class="main-want-body">
+                 {%for item in want_list%}
+                    {{wantList(item.image,item.title,item.subtitle)}}
+                 {% endfor %}
+            </div>
+        </div>
+        <div class="main-want">
+            <div class="main-want-top">
+                <div class="main-want-item">全网热播</div>
+                <div class="main-want-item">神偷奶爸4：10:00</div>
+            </div>
+                <div class="main-want-body">
+                    {% for item in hot_list %}
+                            {{hotList(item.image,item.title,item.subtitle)}}
+                    {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="../static/tools.js"></script>
+<script type="text/javascript" src="../static/index.js"></script>
+
+</html>
